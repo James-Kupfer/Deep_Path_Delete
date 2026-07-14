@@ -1,4 +1,4 @@
-"""deep_path_deleter.py
+"""Deep_Path_Delete.py
 
 Force-delete stubborn directory trees on Windows, including extremely
 long or deeply nested paths that normal tools struggle with.

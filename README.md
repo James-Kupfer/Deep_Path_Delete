@@ -1,5 +1,7 @@
 # Deep_Path_Delete
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 A focused Python utility for force-deleting stubborn directory trees on Windows.
 
 `Deep_Path_Delete` is built for **path-length and depth edge cases** where Windows Explorer, `rmdir`, or other tools refuse to delete a folder because:
@@ -37,7 +39,7 @@ By applying the Windows `\\?\` long-path prefix and using a stack-based walk, th
 ### 1. Clone or download the repo
 
 ```bash
-git clone https://github.com/<your-username>/Deep_Path_Delete.git
+git clone https://github.com/James-Kupfer/Deep_Path_Delete.git
 cd Deep_Path_Delete
 ```
 
@@ -83,3 +85,9 @@ delete_tree(r"C:\some\very\deep\structure")
 ```
 
 This gives you the same long-path and deep-tree handling inside other tools or scheduled jobs.
+
+---
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE).
